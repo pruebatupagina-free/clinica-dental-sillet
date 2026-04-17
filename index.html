@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental Sillet | Odontología Especializada en Santa Catarina, N.L.</title>
+    <meta name="description" content="Clínica Dental Especializada Sillet - Arquitectos de Sonrisas. Odontología cosmética, implantes, cirugía oral y más en Santa Catarina, Nuevo León.">
+    <meta property="og:title" content="Clínica Dental Sillet | Odontología Especializada">
+    <meta property="og:description" content="Tu sonrisa en manos expertas. Más de 59 reseñas con 4.8 estrellas en Google.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none"><path d="M20 4C14 4 10 8 10 14c0 8 10 22 10 22s10-14 10-22c0-6-4-10-10-10z" fill="url(#g1)"/><path d="M16 16c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z" fill="#fff"/><defs><linearGradient id="g1" x1="10" y1="4" x2="30" y2="36"><stop stop-color="#1565c0"/><stop offset="1" stop-color="#4dd0e1"/></linearGradient></defs></svg>
+                <span>Dental <strong>Sillet</strong></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto">Contacto</a>
+                <a href="tel:8122205084" class="nav-cta">Agendar Cita</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-close" id="mobileClose">&times;</button>
+        <a href="#inicio" class="mobile-link">Inicio</a>
+        <a href="#servicios" class="mobile-link">Servicios</a>
+        <a href="#nosotros" class="mobile-link">Nosotros</a>
+        <a href="#testimonios" class="mobile-link">Testimonios</a>
+        <a href="#contacto" class="mobile-link">Contacto</a>
+        <a href="tel:8122205084" class="mobile-cta">📞 Agendar Cita</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <img src="assets/images/hero.PNG" alt="Clínica Dental Sillet">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content reveal">
+            <span class="hero-badge">✨ Arquitectos de Sonrisas</span>
+            <h1>Tu sonrisa perfecta <span class="gradient-text">comienza aquí</span></h1>
+            <p>Odontología especializada con tecnología de punta y un equipo comprometido con tu bienestar. Más de 15 años transformando sonrisas en Santa Catarina.</p>
+            <div class="hero-buttons">
+                <a href="tel:8122205084" class="btn btn-primary">Agendar Cita</a>
+                <a href="#servicios" class="btn btn-outline">Ver Servicios</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-number" data-target="4.8">0</span><span class="stat-label">⭐ Google</span></div>
+                <div class="stat"><span class="stat-number" data-target="59">0</span><span class="stat-label">Reseñas</span></div>
+                <div class="stat"><span class="stat-number" data-target="15">0</span><span class="stat-label">Años Exp.</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2>Cuidado dental <span class="gradient-text">integral</span></h2>
+                <p>Ofrecemos una amplia gama de tratamientos con la más alta calidad y tecnología.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-img"><img src="assets/images/treatment-room.png" alt="Cirugía Oral"></div>
+                    <div class="service-icon">🦷</div>
+                    <h3>Cirugía Oral</h3>
+                    <p>Procedimientos quirúrgicos especializados con técnicas mínimamente invasivas y recuperación rápida.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-img"><img src="assets/images/servicio-2.PNG" alt="Tecnología Avanzada"></div>
+                    <div class="service-icon">💎</div>
+                    <h3>Odontología Cosmética</h3>
+                    <p>Diseño de sonrisa, carillas, blanqueamiento y todo lo necesario para una sonrisa perfecta.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-img"><img src="assets/images/happy-patient.png" alt="Paciente Feliz"></div>
+                    <div class="service-icon">🏥</div>
+                    <h3>Implantes Dentales</h3>
+                    <p>Implantes de la más alta calidad con tecnología Hiossen-Osstem, líderes mundiales en implantología.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">👶</div>
+                    <h3>Odontopediatría</h3>
+                    <p>Atención especializada y cariñosa para los más pequeños del hogar.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">😴</div>
+                    <h3>Sedación Dental</h3>
+                    <p>Tratamientos sin dolor ni ansiedad con técnicas modernas de sedación consciente.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🧹</div>
+                    <h3>Limpiezas Dentales</h3>
+                    <p>Profilaxis profesional para mantener tu salud bucal en óptimas condiciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img reveal">
+                    <img src="assets/images/dentist-portrait.png" alt="Dra. Marianella - Clínica Dental Sillet">
+                    <div class="about-badge">+15 años de experiencia</div>
+                </div>
+                <div class="about-content reveal">
+                    <span class="section-tag">Sobre Nosotros</span>
+                    <h2>Especialistas comprometidos con <span class="gradient-text">tu sonrisa</span></h2>
+                    <p>En Clínica Dental Especializada Sillet somos <strong>Arquitectos de Sonrisas</strong>. Nuestro equipo de profesionales, liderado por la Dra. Marianella, combina años de experiencia con la tecnología más avanzada para ofrecerte resultados excepcionales.</p>
+                    <p>Utilizamos implantes Hiossen-Osstem, los más vendidos en el mundo, garantizando la mejor calidad en cada procedimiento.</p>
+                    <div class="about-features">
+                        <div class="feature"><span>✅</span> Tecnología de punta</div>
+                        <div class="feature"><span>✅</span> Implantes certificados</div>
+                        <div class="feature"><span>✅</span> Atención personalizada</div>
+                        <div class="feature"><span>✅</span> Ambiente cómodo y seguro</div>
+                    </div>
+                    <a href="tel:8122205084" class="btn btn-primary">Agenda tu Consulta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Testimonios</span>
+                <h2>Lo que dicen <span class="gradient-text">nuestros pacientes</span></h2>
+                <div class="google-badge">
+                    <span class="google-stars">⭐⭐⭐⭐⭐</span>
+                    <span>4.8 de 5 — 59 reseñas en Google</span>
+                </div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Excelente atención, muy profesionales y amables. La Dra. Marianella es una experta. Me hicieron sentir muy cómodo durante todo el procedimiento. Totalmente recomendados."</p>
+                    <div class="testimonial-author"><strong>Carlos M.</strong><span>Paciente verificado</span></div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Las instalaciones son de primer nivel, muy limpias y modernas. El equipo de trabajo es increíble, te explican todo con paciencia. Sin duda la mejor clínica dental de la zona."</p>
+                    <div class="testimonial-author"><strong>Laura G.</strong><span>Paciente verificado</span></div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Me realizaron un implante dental y el resultado fue espectacular. El seguimiento post-operatorio fue excelente. Muy agradecido con todo el equipo de Dental Sillet."</p>
+                    <div class="testimonial-author"><strong>Roberto S.</strong><span>Paciente verificado</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Contacto</span>
+                <h2>Visítanos en <span class="gradient-text">nuestra clínica</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <div class="contact-item"><span class="contact-icon">📍</span><div><strong>Dirección</strong><p>Av. Perimetral Norte, Acacia 104-Local 3, Misión de Santa Catarina, 66360 Cdad. Santa Catarina, N.L.</p></div></div>
+                        <div class="contact-item"><span class="contact-icon">📞</span><div><strong>Teléfono</strong><p><a href="tel:8122205084">81 2220 5084</a></p></div></div>
+                        <div class="contact-item"><span class="contact-icon">🕐</span><div><strong>Horario</strong>
+                            <p>Lunes: 8:00 AM – 7:00 PM<br>Martes – Jueves: 9:00 AM – 7:00 PM<br>Viernes: 9:00 AM – 12:00 PM<br>Sábado: 9:00 AM – 6:30 PM<br>Domingo: Cerrado</p>
+                        </div></div>
+                    </div>
+                    <div class="contact-buttons">
+                        <a href="tel:8122205084" class="btn btn-primary">📞 Llamar Ahora</a>
+                        <a href="https://wa.me/528122205084?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita" class="btn btn-whatsapp">💬 WhatsApp</a>
+                    </div>
+                </div>
+                <div class="contact-map reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.5!2d-100.47!3d25.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662977f38a8a22d%3A0x8b6c12e10b5e5b5e!2sCl%C3%ADnica%20Dental%20Especializada%20Sillet!5e0!3m2!1ses!2smx!4v1700000000000!5m2!1ses!2smx" width="100%" height="100%" style="border:0;border-radius:16px;" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Dental <strong>Sillet</strong></h3>
+                    <p>Arquitectos de Sonrisas. Odontología especializada con tecnología de punta en Santa Catarina, N.L.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#testimonios">Testimonios</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. Perimetral Norte, Acacia 104</p>
+                    <p>📞 <a href="tel:8122205084">81 2220 5084</a></p>
+                    <p>🕐 Lun-Sáb: 8AM - 7PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clínica Dental Especializada Sillet. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/528122205084?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20cita" class="whatsapp-float" id="whatsappFloat" aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32" fill="#fff"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.5L3 29l6.7-1.7C11.5 28.4 13.7 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm7.4 18.3c-.3.9-1.8 1.7-2.5 1.8-.7.1-1.3.5-4.4-.9-3.7-1.7-6.1-5.5-6.3-5.8-.2-.3-1.6-2.1-1.6-4s1-2.8 1.4-3.2c.4-.4.8-.5 1.1-.5h.8c.3 0 .6 0 .9.7.3.7 1.1 2.7 1.2 2.9.1.2.2.4.04.7-.1.3-.2.4-.4.6-.2.2-.4.5-.5.6-.2.2-.4.4-.2.8.2.4 1 1.8 2.2 2.9 1.5 1.4 2.7 1.8 3.1 2 .4.2.6.2.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.5-.3.9-.2.4.1 2.3 1.1 2.7 1.3.4.2.6.3.7.4.1.2.1 1-.2 1.9z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
